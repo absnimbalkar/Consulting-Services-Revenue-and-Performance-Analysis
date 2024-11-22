@@ -15,7 +15,7 @@
     -	ETL Process: Extract, Transform, Load (ETL) processes are used to clean, combine, and prepare data for analysis.
 
   -	Data Visualization
-    -	Charts and Graphs: Display sales figures using bar charts, line graphs, pie charts, and heat maps.
+    -	Charts and Graphs: Display sales figures using bar charts, line graphs & pie charts
     -	Tables and Metrics: Show detailed sales data and KPIs like total sales, sales by region, and average deal size.
 
   -	KPIs and Metrics
