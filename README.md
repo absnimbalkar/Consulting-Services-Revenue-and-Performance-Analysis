@@ -4,57 +4,35 @@
 
 ## Project Objective
 
-1. Objective
-   - The primary goal of a Sales Dashboard is to provide a comprehensive view of sales performance and metrics.
-    This tool allows sales managers, executives, and other stakeholders to monitor key performance indicators (KPIs), track sales trends, and make data-driven decisions to improve sales strategies and outcomes.
+This repository contains Power BI reports that provide insightful analysis on key business areas of PWC. The reports focus on three major areas: Diversity & Inclusion, Call Centre Trends, and Customer Churn. Each report includes specific KPIs to analyze and monitor performance, providing valuable insights for decision-making.
 
-3. Key Components
+## Reports Overview
 
-  -	Data Integration
-    -	Sources: Integrate data from various sources such as CRM systems, ERP systems, sales databases, and spreadsheets.
-    -	ETL Process: Extract, Transform, Load (ETL) processes are used to clean, combine, and prepare data for analysis.
+# 1. Diversity & Inclusion Report
+The Diversity & Inclusion report provides an analysis of gender diversity, employee promotions, hires, and turnover within the organization. The key performance indicators (KPIs) included in this report are:
 
-  -	Data Visualization
-    -	Charts and Graphs: Display sales figures using bar charts, line graphs & pie charts
-    -	Tables and Metrics: Show detailed sales data and KPIs like total sales, sales by region, and average deal size.
+No. of Men / Women: The count of male and female employees.
+% Employees Promoted: Percentage of employees promoted during the reporting period.
+% of Hires: Percentage of new hires made within the reporting period.
+% Turnover: Percentage of employees who left the organization during the reporting period.
 
-  -	KPIs and Metrics
-    -	Total Sales: Overall revenue generated in a specific period.
-    -	Sales Growth: Comparison of current sales with previous periods to identify growth trends.
-    -	Top Performing Products: Highlight which products or services are driving the most revenue.
-    -	Sales by Region: Breakdown of sales figures by geographical locations.
-    - Conversion Rates: Measure the effectiveness of sales efforts by tracking the ratio of leads converted to actual sales.
+# 2. Call Centre Trends Report
+The Call Centre Trends report focuses on the performance of the customer support team, providing insights into customer satisfaction and call handling metrics. The KPIs for this report include:
 
-  -	Interactivity
-    -	Filters: Allow users to customize the view by selecting specific time periods, regions, or sales teams.
-    -	Drill-Down Capability: Enable users to click on high-level metrics to view detailed underlying data.
-  -	User Interface (UI)
-    -	Design: Ensure the dashboard is intuitive and user-friendly, with a clean layout and easy navigation.
-    -	Accessibility: Make the dashboard accessible across different devices (desktop, tablet, mobile).
-      
-3. Development Process
-  -	Requirement Gathering
-    -	Collaborate with stakeholders to understand their needs and define the key metrics and features required for the dashboard.
-  -	Design and Prototyping
-    -	Create wireframes and mockups of the dashboard layout and design.
-    -	Iterate based on feedback to refine the design.
-  -	Data Integration and Development
-    -	Develop the backend processes to connect to data sources and handle data processing.
-    -	Build the frontend components to visualize the data based on the design.
-  -	Testing and Validation
-    -	Test the dashboard for accuracy and performance issues.
-    -	Validate that all data is correctly represented and that interactive features work as intended.
-  -	Deployment and Training
-    -	Deploy the dashboard to the production environment.
-    -	Provide training and documentation to end-users to ensure they can effectively use the dashboard.
-  -	Maintenance and Updates
-    -	Regularly update the dashboard to include new features, refine data sources, and ensure ongoing accuracy.
-    	
-4. Benefits
-   
-  -	Enhanced Visibility: Provides a clear, real-time overview of sales performance, helping managers and teams stay informed.
-    
-  -	Informed Decision-Making: Facilitates data-driven decisions by highlighting trends, opportunities, and areas needing improvement.
-    
-  -	Increased Efficiency: Saves time by automating data reporting and visualization, reducing the need for manual reporting.
+Customer Satisfaction: The overall customer satisfaction score based on feedback surveys.
+Calls Answered / Abandoned: The total number of calls answered vs. the total number of calls abandoned.
+Avg Speed of Answer: The average time taken to answer a customer call.
 
+# 3. Customer Churn Report
+The Customer Churn report provides analysis on customer retention and churn patterns. This report helps in understanding how different demographics and services impact customer churn. The KPIs are:
+
+Churn Rate %: The percentage of customers who left the service within the reporting period.
+Customer's Demographics: Demographic information of the customers who have churned, such as age, location, etc.
+Services Signed Up For: The types of services that customers were subscribed to before churning.
+Getting Started
+Prerequisites
+
+# Files Included
+- Diversity & Inclusion Report (.pbix): Power BI file containing Diversity & Inclusion data and visualizations.
+- Call Centre Trends Report (.pbix): Power BI file for Call Centre performance analysis.
+- Customer Churn Report (.pbix): Power BI file analyzing customer churn data.
